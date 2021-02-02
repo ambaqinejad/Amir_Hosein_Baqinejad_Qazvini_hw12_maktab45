@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+body {
+    background-image: url('../assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.formContainer {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 50px 50px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.formTitle {
+    color: white;
+    text-align: center;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.iconContainer {
+    background-color: gray;
+    height: 40px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icon {
+    color: white;
+}
+
+.input {
+    height: 40px;
+    width: 90%;
+    padding-right: 5px;
+    border: 2px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.enterBtn {
+    color: white;
+    width: 100%;
+    background-color: rgb(9, 182, 3);
+    height: 40px;
+    border: solid 2px rgb(9, 182, 3);
+    border-radius: 5px;
+}
+
+.signUpContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.signUpContainer span {
+    color: white;
+}
+
+.signUpContainer a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.mr-b-17 {
+    margin-bottom: 17px;
+}
+
+.necessary {
+    color: red;
+    display: none;
+}
+
+.borderNecessary {
+    border-color: red;
+}
+
+form {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    div.formContainer {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    div.formContainer {
+        width: 30%;
+    }
+}
